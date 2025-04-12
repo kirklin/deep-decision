@@ -1,7 +1,4 @@
-import process from "node:process";
+import { ENV } from "./config/env";
+import { decisionSystemPrompt } from "./config/prompts";
 
-export const one = 1;
-export const two = 2;
-const i = process.env.OPENAI_KEY
-
-console.log(i)
+console.log(ENV, decisionSystemPrompt());
