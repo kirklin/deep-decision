@@ -20,9 +20,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "esno": "esno --env-file=.env.local",
-    "start": "esno --env-file=.env.local src/index.ts",
+    "start": "esno --env-file=.env.local src/run.ts",
     "api": "esno --env-file=.env.local src/api.ts",
-    "docker": "esno src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
